@@ -1,0 +1,14 @@
+.header {
+    &__container {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        padding: 0px 30px;
+    }
+
+    &__logo-image {
+        width: 100px;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

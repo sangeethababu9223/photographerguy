@@ -1,0 +1,11 @@
+.main-container {
+    width: 100%;
+    min-height: calc(100vh - 215px);
+}
+
+.container {
+    &--max-1400 {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+}

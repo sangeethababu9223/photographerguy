@@ -1,0 +1,12 @@
+.photo {
+    &__item {
+        height: 300px;
+    }
+
+    &__image {
+        max-width: 100%;
+        height: calc(100% - 30px);
+        width: auto;
+        object-fit: cover;
+    }
+}
